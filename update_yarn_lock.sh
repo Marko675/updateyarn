@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE_PATH="/var/www/pterodactyl/yarn.lock"
+FILE_PATH="$(pwd)/yarn.lock"
 REMOTE_URL="https://drive.google.com/uc?export=download&id=1Eb3WiE1NNfFiKBib26EQM3Ssyt81KB9a"
 
 echo "Deleting existing yarn.lock file if it exists..."
